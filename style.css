@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    margin: 0 0 15px 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    border:2px solid #fff;
+    padding: 8px;
+    border-bottom: none;
+}
+
+li:last-child{
+    border: 2px solid #fff;
+}
+
+.header{
+    background-color: rgb(71, 9, 9);
+    color:#fff;
+    padding: 5px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h5{
+    margin: 0;
+
+}
+
+input{
+    border: none;
+    padding: 3px;
+    
+}
+
+#error-message{
+    display: none;
+}
+
+.addBtn{
+    background-color: #fff;
+    color: rgb(71, 9, 9);
+    font-weight: bolder;
+    border: none;
+    padding: 6px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.delete-btn{
+    border: none;
+    padding: 4px;
+    float: right;
+    color: #fff;
+    background-color: rgb(212, 18, 18);
+    cursor: pointer;
+    /* font-weight: bolder; */
+}
+
+.container{
+    padding: 20px;
+    background-color: rgb(71, 9, 9);
+    color: #fff;
+    border: 2px solid #fff;
+}
+
